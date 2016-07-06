@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/ll_bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/tv_tab1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="星期一"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="星期二"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="星期三"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="星期四"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/tv_tab5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="星期五"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_home_page_fg_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom_tab">
+
+    </FrameLayout>
+
+
+
+
+
+</RelativeLayout>
